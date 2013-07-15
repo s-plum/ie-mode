@@ -10,7 +10,7 @@ Download and add the following script to your site: 'detect.js'
 
 Then, simply point to it:
 
-<script src="js/ie-mode/detect.js"></script>
+&lt;script src="js/ie-mode/detect.js"&gt;&lt;/script&gt;
 
 To test the page, fire up IE and run the IE Developer Toolbar (F12) to switch modes. If you don't know how to toggle between modes, check out [Testing sites with Browser Mode vs. Doc Mode](http://blogs.msdn.com/b/ie/archive/2010/10/19/testing-sites-with-browser-mode-vs-doc-mode.aspx)
 
