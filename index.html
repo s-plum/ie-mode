@@ -31,22 +31,13 @@
         <h1>
 <a name="internet-explorer-mode-detection" class="anchor" href="#internet-explorer-mode-detection"><span class="octicon octicon-link"></span></a>Internet Explorer Mode Detection</h1>
 
-<p>A simple way to help your clients detect what browser/document mode they are using in Internet Explorer.</p>
+<p>Have you ever been in a situation where a client is complaining about how their site is rendering in IE9 or 10? Ugh. More times than not, the browser is running in forced compatibility mode. While you <em>could</em> walk them through the steps to help troubleshoot the issue, you can confirm it easily by downloading and connecting to the following script:</p>
 
-<p>Have you ever been in a situation where a client is complaining about how their site is rendering in IE9 or 10? Ugh. Who hasn't? More times than not, the browser is running in forced compatibility mode. While you <em>could</em> walk them through the steps to help troubleshoot the issue, you can confirm it easily by downloading and connecting to a simple script.</p>
+<p><code>&lt;script src="http://www.yoursite.com/js/ie-mode/detect.js"&gt;&lt;/script&gt;</code>
 
-<h2>
-<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h2>
+</p><p>Here you will be presented with the following message when <a href="http://blogs.msdn.com/b/ie/archive/2010/10/19/testing-sites-with-browser-mode-vs-doc-mode.aspx">changing the browser mode</a> via IEs Developer Tool.</p>
 
-<p>Download and add the following script to your site: <code>detect.js</code></p>
-
-<p>Then, simply point to it:</p>
-
-<p><code>&lt;script src="js/ie-mode/detect.js"&gt;&lt;/script&gt;</code></p>
-
-<p>To test the page, fire up IE and run the IE Developer Toolbar (F12) to switch modes. If you don't know how to toggle between modes, check out <a href="http://blogs.msdn.com/b/ie/archive/2010/10/19/testing-sites-with-browser-mode-vs-doc-mode.aspx">Testing sites with Browser Mode vs. Doc Mode</a></p>
-
-<p>To see an example of what the client will see, check out <code>example.html</code>.</p>
+<p>You are viewing this site in Internet Explorer 8 or Internet Explorer Compatibility Mode. You should consider <a href="http://browsehappy.com/">upgrading your browser</a> or speaking to your IT department about dropping support for older browsers.</p>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/michaelspellacy">michaelspellacy</a></p>
