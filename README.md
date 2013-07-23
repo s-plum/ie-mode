@@ -16,4 +16,4 @@ To test the page, fire up IE and run the IE Developer Toolbar (F12) to switch mo
 
 To see an example of what the client will see, check out `example.html`.
 
-Happy coding! Fight for web standards!
+Happy coding! Fight for web standards! Blue beanies on!
